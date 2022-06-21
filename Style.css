@@ -1,0 +1,187 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: #E5E5E5;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-align: center;
+	background-image: url(images/wp4770069-encryption-wallpapers.jpg);
+	background-size: cover; 
+}
+
+.Container{
+	margin: auto;
+	width: 960px;
+	height: 650px;
+	padding: 5px;
+}
+
+.logo{
+	width: 100%;
+	float: left;
+}
+
+.logoimg:hover{
+	transition: 1s all;
+	transform: rotate(360deg)
+}
+
+.left{
+	float: left;
+	width: 70%;
+	height: 70%;
+	border-radius: 12px;
+}
+
+.social{
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon{
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-linkedin{
+	background: #0E76A8;
+}
+
+.icon-twitter{
+	background: #339DC5;
+}
+
+.icon-github{
+	background: #171515;
+}
+
+.icon:first-child{
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child{
+	border-radius: 0 0 0 1rem;
+}
+
+.right{
+	float: right;
+	width: 30%;
+	height: 87%;
+	border-radius: 12px;
+	background: white;
+}
+
+.left-button{
+	float: left;
+	width: 70%;
+	height: auto;
+	border-radius: 12px;	
+}
+
+.logoimg{
+	margin-top: 1%;
+	margin-left: 5%;
+	float: inherit;
+}
+
+.tittle{
+	float: inherit;
+	margin-left: 20%;
+	color: white;
+}
+
+.text-input{
+	float: left;
+	margin-left: 10%;
+	margin-top: 10%;
+	width: 80%;
+	height: 60%;
+	color: #0A3871;
+	font-size: 32px;
+	border: none;
+	outline: none;
+	background: white;
+	border-radius: 12px;
+}
+
+#imagenref{
+	margin-left: 6%;
+	margin-top: 20%;
+	width: 90%;
+	height: auto;
+}
+
+#tituloimg{
+	padding: 5px 5px 5px 10px;
+}
+
+#textoinferior{
+	float: left;
+	margin-top: 10%;
+	margin-left: 10%;
+	color: #0A3871;
+	width: 80%;
+	height: 20%;
+	border: none;
+	outline: none;
+	font-size: 15px;
+	background: #E5E5E5;
+	border-radius: 12px;
+}
+
+#Encriptar{
+	padding: 20px;
+	width: 30%;
+	height: 60%;
+	border-radius: 12px;
+	background: #0A3871;
+}
+
+#Desencriptar{
+	padding: 20px;
+	width: 30%;
+	height: 60%;
+	border-radius: 12px;
+	margin-left: 10%;
+	background: #E5E5E5;
+}
+
+#Copiar{
+	margin-left: 33%;
+	margin-top: 70%;
+	padding: auto;
+	width: 40%;
+	height: 10%;
+	background: #E5E5E5;
+	border-radius: 12px;
+	display: none;
+}
+
+.enunciado{
+	font-size: 25px;
+	color: white;
+}
+
+#imagenref1{
+	margin-left: 6%;
+	margin-top: 20%;
+	width: 90%;
+	height: auto;
+	display: none;
+	border-radius: 12px;
+}
+
+.copyright{
+    padding: 5% 0 0 0;
+	color:#ffffff;
+    font-size: 13px;
+    margin: 20px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<link rel="stylesheet" type="text/css" href="font.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+	<title>Encriptador</title>
+</head>
+<body>
+	<div class="Container">
+		<div class="logo">
+			<img class="logoimg" src="images/Logo.png">
+			<h1 class="tittle">Encriptador de Mensajes</h1>
+		</div>
+		<div class="left">
+			<input class="text-input" id="inputText" type="text" placeholder="Ingrese el texto aquí">
+		</div>
+		<div class="social">
+			<a href="https://www.linkedin.com/in/jeffersongomezluna/" class="icon icon-linkedin" target="blank"></a>
+			<a href="https://twitter.com/jglynx" class="icon icon-twitter" target="blank"></a>
+			<a href="https://github.com/JefferGomez" class="icon icon-github" target="blank"></a>
+		</div>
+		<div class="right">
+			<img src="Images/muneco.png" id="imagenref">
+			<img src="Images/protecciondatos.jpg" id="imagenref1">
+			<h1 id="tituloimg">Ningún mensaje fue encontrado</h1>
+			<textarea id="textoinferior">Ingrese el texto que desees encriptar o desencriptar.</textarea>
+			<button id="Copiar" onclick="copiar()">¡Copiar!</button>
+		</div>
+		<div class="left-button">
+			<p class="enunciado">Solo letras minusculas y sin acentos</p>
+			<button id="Encriptar" onclick="Encriptar()">Encriptar</button>
+			<button id="Desencriptar" onclick="Desencriptar()">Desencriptar</button>
+		</div>
+	</div>
+	<footer>
+		<p class="copyright">&copy Copyright Jefferson Gomez Luna 2022</p>
+	</footer>
+	<script src="/script.js"></script>
+</body>
+</html>
